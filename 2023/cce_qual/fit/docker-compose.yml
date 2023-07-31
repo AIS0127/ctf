@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  fit:
+    build:
+      context: ./
+    ports:
+       - "5333:5333"
+    restart: always
